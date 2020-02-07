@@ -45,3 +45,34 @@ img {
   color: white;
 }
 
+@media screen and (max-width:768px){
+  .content {
+    float: none;
+    width: 90%;
+    margin: 20px auto 0 auto;
+    padding: 10px;
+  }
+
+  main {
+    width: 90%;
+  }
+
+  .box {
+    width: 100%;
+  }
+
+  .box img {
+    width: 100%;
+    
+  }
+
+  .content:nth-child(1){
+    margin: 20px auto 0 auto;
+  }
+
+  .content:nth-child(2){
+    margin:20px auto 0 auto;
+  }
+
+
+}
