@@ -3,3 +3,45 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+main{
+  margin: 50px auto;
+  width: 960px;
+}
+
+.content {
+  padding: 10px;
+  border: solid rgb(214, 211, 211) 1px;
+  /* display: inline-block; */
+  float: left;
+  width: 300px;
+  position: relative;
+
+}
+
+.content:nth-child(1){
+  margin-right: 30px;
+}
+
+.content:nth-child(2){
+  margin-right: 30px;
+}
+
+.box {
+  width: 280px;
+  text-align: left;
+
+}
+
+img {
+  width: 280px;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: orange;
+  color: white;
+}
+
